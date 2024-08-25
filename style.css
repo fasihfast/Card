@@ -24,11 +24,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 14px;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     align-items: center;
     border-radius: 15px;
     background-color: rgb(199, 216, 231);
+    width: fit-content;
 }
 .box-card1 img{
     height: 230px;
