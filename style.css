@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.container-card1{
+    height: 100vh;
+    width: 100%;
+    min-width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-card1{
+    width: 250px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(199, 216, 231);
+}
+
+.box-card1 img{
+    height: 230px;
+    border-radius: 5px;
+}
+
+h2{
+    position: relative;
+    bottom: 40px;
+}
+
+.box-card1 p{
+    position: relative;
+    bottom: 40px;
+}
+
+.container{
+width: 100%;
+min-width: 420px;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box{
+width: 333px;
+height: 495px;
+background-color: #fff;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+
+}
+
+.box img{
+height: 160px;
+width: 100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+#p1{
+text-align: center;
+padding: 5px;
+font-weight: bold;
+}
+
+h3{
+font-weight: bolder;
+color: black;
+font-size: 1.5rem;
+}
+
+.rec{
+width: 275px;
+height: 48px;
+border-radius: 5px;
+display: flex;
+gap: 20px;
+background-color: rgb(176, 212, 244);
+padding: 5px;
+}
+
+.box1{
+display: flex;
+}
+
+.box2{
+padding: 7px 5px;
+
+}
+#subbox2{
+font-weight: bold;
+font-size: 0.9rem;
+padding: 2px;
+width: 175px;
+}
+#subbox1{
+width: 46%;
+height: 35px;
+position: relative;
+bottom: 3px;
+}
+#music{
+width: 100%;
+height: 45px;
+
+}
+
+button{
+background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgb(11, 31, 53) 0%, rgba(21,83,161,1) 90% );
+height: 40px;
+width: 263px;
+border-radius: 8px;
+color: white;
+box-shadow: 3px 7px 10px rgb(11, 31, 53);
+}
+#lasta{
+text-decoration: none;
+color: black;
+font-size: 0.9rem;
+}
