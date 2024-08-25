@@ -23,29 +23,17 @@ body{
     height: 430px;
     display: flex;
     flex-direction: column;
-    gap: 39px;
+    gap: 14px;
     padding: 15px;
     text-align: center;
     align-items: center;
     border-radius: 15px;
     background-color: rgb(199, 216, 231);
 }
-
 .box-card1 img{
     height: 230px;
     border-radius: 5px;
 }
-
-h2{
-    position: relative;
-    bottom: 40px;
-}
-
-.box-card1 p{
-    position: relative;
-    bottom: 40px;
-}
-
 .container{
 width: 100%;
 min-width: 420px;
