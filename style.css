@@ -20,7 +20,7 @@ body{
 
 .box-card1{
     max-width: 255px;
-    height: 415px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 14px;
