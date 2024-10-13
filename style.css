@@ -19,8 +19,8 @@ body{
 }
 
 .box-card1{
-    width: 250px;
-    height: 430px;
+    max-width: 255px;
+    height: 415px;
     display: flex;
     flex-direction: column;
     gap: 14px;
